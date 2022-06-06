@@ -14,6 +14,12 @@ public class taksimetreProgrami {
         System.out.println("Açılış Ücreti: " +acilisUcreti);
         System.out.println("KM Başına Ödemeniz Gereken Ücret: " +perKm);
 
+
+        /** Koşul operatörlerini kullanarak da bu yapıyı sağlayabiliriz.
+         * odenecekTutar = (odenecekTutar < 20) ? 20 : odenecekTutar;
+         * Ne söylemiş olduk bu kod ile: eğer ödenecek tutar 20'den küçük mü sor? doğruysa 20 getir
+         * yanlışsa odenecekTutarı getir.
+         */
         if (odenecekTutar < 20){
             odenecekTutar = 20;
             System.out.println("Minimum Ödemeniz Gereken Ücret: 20TL'dir.");
