@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10609c75-55ee-46ca-82bb-519128ef3073" name="Changes" comment="taksimetreProgrami eklendi 06.06.2022">
-      <change afterPath="$PROJECT_DIR$/src/DaireAlanHesaplama.java" afterDir="false" />
+    <list default="true" id="10609c75-55ee-46ca-82bb-519128ef3073" name="Changes" comment="DaireAlanHesaplama eklendi. 06.06.2022">
+      <change afterPath="$PROJECT_DIR$/src/vucutKitleIndeksiHesaplama.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DaireAlanHesaplama.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/daireAlanHesaplama.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +38,7 @@
     "settings.editor.selected.configurable": "File.Encoding"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DaireAlanHesaplama">
+  <component name="RunManager" selected="Application.vucutKitleIndeksiHesaplama">
     <configuration name="DaireAlanHesaplama" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DaireAlanHesaplama" />
       <module name="java101-patikaDev-projeleri" />
@@ -66,6 +67,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="vucutKitleIndeksiHesaplama" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="vucutKitleIndeksiHesaplama" />
+      <module name="java101-patikaDev-projeleri" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="java101-patikaDev-projeleri" />
       <method v="2">
@@ -81,6 +89,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.vucutKitleIndeksiHesaplama" />
         <item itemvalue="Application.DaireAlanHesaplama" />
         <item itemvalue="Application.taksimetreProgrami" />
         <item itemvalue="Application.kdvHesaplama" />
@@ -118,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654546012774</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="DaireAlanHesaplama eklendi. 06.06.2022">
+      <created>1654547361665</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1654547361665</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,6 +151,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="kdvOraniHesaplama 06.06.2022 @oguzhanacarca" />
     <MESSAGE value="taksimetreProgrami eklendi 06.06.2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="taksimetreProgrami eklendi 06.06.2022" />
+    <MESSAGE value="DaireAlanHesaplama eklendi. 06.06.2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="DaireAlanHesaplama eklendi. 06.06.2022" />
   </component>
 </project>
