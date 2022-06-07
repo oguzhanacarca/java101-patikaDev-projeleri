@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10609c75-55ee-46ca-82bb-519128ef3073" name="Changes" comment="kullaniciGiris 07.07.2022 @oguzhanacarca">
-      <change afterPath="$PROJECT_DIR$/src/pratikSinifGecme.java" afterDir="false" />
+    <list default="true" id="10609c75-55ee-46ca-82bb-519128ef3073" name="Changes" comment="pratikEtkinlikOnerme 07.07.2022 @oguzhanacarca">
+      <change afterPath="$PROJECT_DIR$/src/pratikEtkinlikOnerme.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +23,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2AD7BdyOMra034R9jV8nsbRUpca" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -40,7 +43,7 @@
     "settings.editor.selected.configurable": "File.Encoding"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.pratikSinifGecme">
+  <component name="RunManager" selected="Application.pratikEtkinlikOnerme">
     <configuration name="javaDenemeSilinecek" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javaDenemeSilinecek" />
       <module name="java101-patikaDev-projeleri" />
@@ -55,15 +58,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="javaMessageDigest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaMessageDigest" />
+    <configuration name="kullaniciGiris" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kullaniciGiris" />
       <module name="java101-patikaDev-projeleri" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="kullaniciGiris" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kullaniciGiris" />
+    <configuration name="pratikEtkinlikOnerme" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pratikEtkinlikOnerme" />
       <module name="java101-patikaDev-projeleri" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -78,11 +81,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.pratikEtkinlikOnerme" />
         <item itemvalue="Application.pratikSinifGecme" />
         <item itemvalue="Application.kullaniciGiris" />
         <item itemvalue="Application.javaDenemeSinifi" />
         <item itemvalue="Application.javaDenemeSilinecek" />
-        <item itemvalue="Application.javaMessageDigest" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654609842624</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="pratikSinifGecme 07.07.2022 @oguzhanacarca">
+      <created>1654611658630</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1654611658630</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,6 +183,8 @@
     <MESSAGE value="Manav Kasa Programı 06.06.2022 @oguzhanacarca" />
     <MESSAGE value="Hesap Makinesi yapımı 07.06.2022" />
     <MESSAGE value="kullaniciGiris 07.07.2022 @oguzhanacarca" />
-    <option name="LAST_COMMIT_MESSAGE" value="kullaniciGiris 07.07.2022 @oguzhanacarca" />
+    <MESSAGE value="pratikSinifGecme 07.07.2022 @oguzhanacarca" />
+    <MESSAGE value="pratikEtkinlikOnerme 07.07.2022 @oguzhanacarca" />
+    <option name="LAST_COMMIT_MESSAGE" value="pratikEtkinlikOnerme 07.07.2022 @oguzhanacarca" />
   </component>
 </project>
