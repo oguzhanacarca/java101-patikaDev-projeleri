@@ -5,36 +5,49 @@ public class kullaniciGiris {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String userName, password, sifirlama, newPassword;
-        System.out.print("Kullanıcı Adınız: ");
-        userName = scan.nextLine();
-        System.out.print("Şifreniz: ");
-        password = scan.nextLine();
+        System.out.print("KullanÄ±cÄ± AdÄ±nÄ±z: ");
+        userName = scan.next();
+        // burda nextLine yerine next kullanmalÄ±sÄ±nÄ±z cunku yaptÄ±gÄ±nÄ±z plana gÃ¶re kullanÄ±cÄ± bir isimli oldugu icin iki isim olsa bile ilk ismi alÄ±r sadece next()
+        System.out.print("Åifreniz: ");
+        password = scan.next();
+        // burdada next() olmalÄ±dÄ±r cunku ÅŸifre boÅŸluk icermez.
+        /*
+         orneÄŸin nexxtLine() olsaydÄ± "1234 567" gibi ÅŸeyleri kabul ederdi
+         ama next() olursa size "1234 567" yazsanÄ±z bile next() sadece "1234" alacaktÄ±r.
+         */
+
 
         if (userName.equals("oguzhan") && password.equals("1234")) {
-            System.out.print("Başarıyla giriş yaptınız.");
-        } else if (!(userName.equals("oguzhan") && password.equalsIgnoreCase(""))) {
-            System.out.println("Kullanıcı adınız veya şifreniz hatalı.");
-            System.out.print("Şifrenizi sıfırlamak ister misiniz? (E/H):");
+            System.out.print("BaÅŸarÄ±yla giriÅŸ yaptÄ±nÄ±z.");
+        } else if (!(userName.equals("oguzhan") && password.equals("1234"))) {
+            /*
+            burdada password kÄ±smÄ±na equalsIgnoreCase kullanÄ±rsanÄ±z passwordde buyuk kucuk harf olmasÄ±na dikkat etmez ama
+            ÅŸifrelerde karkterlerin ozelliÄŸi sabit kalmalÄ±dÄ±r bu yuzden
+            equals() kullanmanÄ±z daha dogru olucaktÄ±r  , yani genel bir projede giriÅŸ sayafasÄ±nda herÅŸeykarekterlere dikkat eder
+             */
+            System.out.println("KullanÄ±cÄ± adÄ±nÄ±z veya ÅŸifreniz hatalÄ±.");
+
+            System.out.print("Åifrenizi sÄ±fÄ±rlamak ister misiniz? (E/H):");
             sifirlama = scan.nextLine();
             if (sifirlama.equals("H")) {
-                System.out.print("Lütfen tekrar giriş yapmak için sayfayı yenileyiniz.");
+                System.out.print("LÃ¼tfen tekrar giriÅŸ yapmak iÃ§in sayfayÄ± yenileyiniz.");
             } else if (sifirlama.equals("E")) {
-                System.out.print("Yeni şifrenizi giriniz: ");
+                System.out.print("Yeni ÅŸifrenizi giriniz: ");
                 newPassword = scan.nextLine();
 
                 while (newPassword.equals("1234") || newPassword.equals(password)) {
-                    System.out.print("Şifreniz oluşturulamadı. Farklı bir şifre ile tekrar deneyin: ");
+                    System.out.print("Åifreniz oluÅŸturulamadÄ±. FarklÄ± bir ÅŸifre ile tekrar deneyin: ");
                     newPassword = scan.nextLine();
                 }
-                System.out.print("Şifreniz başarıyla oluşturuldu.\nYeniden Giriş yapabilirsiniz.\nKullanıcı Adınız: ");
+                System.out.print("Åifreniz baÅŸarÄ±yla oluÅŸturuldu.\nYeniden GiriÅŸ yapabilirsiniz.\nKullanÄ±cÄ± AdÄ±nÄ±z: ");
                 userName = scan.nextLine();
-                System.out.print("Şifreniz: ");
+                System.out.print("Åifreniz: ");
                 password = scan.nextLine();
 
                 if (userName.equals("oguzhan") && password.equals(newPassword)) {
-                    System.out.print("Başarıyla giriş yaptınız.");
+                    System.out.print("BaÅŸarÄ±yla giriÅŸ yaptÄ±nÄ±z.");
                 } else {
-                    System.out.println("Kullanıcı adınız veya şifreniz hatalı.");
+                    System.out.println("KullanÄ±cÄ± adÄ±nÄ±z veya ÅŸifreniz hatalÄ±.");
                 }
 
             }
@@ -42,5 +55,14 @@ public class kullaniciGiris {
 
         }
 
+
+        /*
+        daha duzenli ve guzelleride vardÄ±r ama ÅŸuanlÄ±k bunlarÄ± bildiÄŸiniz iÃ§in ilerlediÄŸinizde daha sade ve gÃ¼zel komutlar yazmaaya baÅŸlarsÄ±nÄ±z
+         */
+
+
+
     }
 }
+
+    
