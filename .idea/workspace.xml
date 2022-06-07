@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10609c75-55ee-46ca-82bb-519128ef3073" name="Changes" comment="Manav Kasa Programı 06.06.2022 @oguzhanacarca">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hesapMakinesi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaMessageDigest.java" afterDir="false" />
+    <list default="true" id="10609c75-55ee-46ca-82bb-519128ef3073" name="Changes" comment="Hesap Makinesi yapımı 07.06.2022">
+      <change afterPath="$PROJECT_DIR$/src/kullaniciGiris.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +40,7 @@
     "settings.editor.selected.configurable": "File.Encoding"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.javaDenemeSinifi">
+  <component name="RunManager" selected="Application.kullaniciGiris">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Solution" />
       <module name="java101-patikaDev-projeleri" />
@@ -72,8 +69,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="manavKasaProgrami" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="manavKasaProgrami" />
+    <configuration name="kullaniciGiris" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kullaniciGiris" />
       <module name="java101-patikaDev-projeleri" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -81,11 +78,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.kullaniciGiris" />
         <item itemvalue="Application.javaDenemeSinifi" />
         <item itemvalue="Application.javaDenemeSilinecek" />
         <item itemvalue="Application.javaMessageDigest" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.manavKasaProgrami" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654549094630</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Hesap Makinesi yapımı 07.06.2022">
+      <created>1654603126531</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1654603126531</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,6 +164,7 @@
     <MESSAGE value="DaireAlanHesaplama eklendi. 06.06.2022" />
     <MESSAGE value="Vücut Kitle İndeksi Hesaplama 06.06.2022 @oguzhanacarca" />
     <MESSAGE value="Manav Kasa Programı 06.06.2022 @oguzhanacarca" />
-    <option name="LAST_COMMIT_MESSAGE" value="Manav Kasa Programı 06.06.2022 @oguzhanacarca" />
+    <MESSAGE value="Hesap Makinesi yapımı 07.06.2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hesap Makinesi yapımı 07.06.2022" />
   </component>
 </project>
